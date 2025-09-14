@@ -1,0 +1,7 @@
+// Simple form handler (demo only)
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  document.getElementById("status").innerText =
+    "✅ Message sent successfully (demo only).";
+  this.reset();
+});
